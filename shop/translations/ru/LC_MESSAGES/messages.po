@@ -1,0 +1,298 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-08-28 18:11+0500\n"
+"PO-Revision-Date: 2023-08-28 18:12+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: shop/__init__.py:32
+msgid "Please login First"
+msgstr "Для входа нужен логин"
+
+#: shop/admin/forms.py:10 shop/products/forms.py:6
+#: shop/templates/admin/brand.html:39
+msgid "Name"
+msgstr "Имя"
+
+#: shop/admin/forms.py:11
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: shop/admin/forms.py:12
+msgid "Email Address"
+msgstr "Email"
+
+#: shop/admin/forms.py:13
+msgid "New Password"
+msgstr "Создайте новый пароль"
+
+#: shop/admin/forms.py:14
+msgid "Repeat Password"
+msgstr "Повторите пароль"
+
+#: shop/admin/forms.py:18
+msgid "Username already in use."
+msgstr "Данный пользователь уже существует"
+
+#: shop/admin/forms.py:22
+msgid "Email already registered."
+msgstr "Данный Email уже существует"
+
+#: shop/admin/forms.py:26 shop/customers/forms.py:35
+msgid "Email"
+msgstr "Email"
+
+#: shop/admin/forms.py:27 shop/customers/forms.py:36
+msgid "Password"
+msgstr "Password"
+
+#: shop/admin/routes.py:13 shop/admin/routes.py:22 shop/admin/routes.py:31
+#: shop/products/routes.py:58 shop/products/routes.py:73
+#: shop/products/routes.py:88 shop/products/routes.py:102
+#: shop/products/routes.py:117 shop/products/routes.py:132
+#: shop/products/routes.py:146 shop/products/routes.py:174
+#: shop/products/routes.py:226
+msgid "Please login first"
+msgstr "Для входа нужен логин"
+
+#: shop/admin/routes.py:43
+#, python-format
+msgid "Welcome %(name)s. Thank you for registering"
+msgstr "Добро пожаловать %(name)s. Благодарим за регистрацию"
+
+#: shop/admin/routes.py:56
+msgid "Welcome email, You are logedin"
+msgstr "Welcome email, You are logedin"
+
+#: shop/admin/routes.py:59
+msgid "Wrong password or email please try again"
+msgstr "Неверный пароль или email попробуйте еще раз"
+
+#: shop/customers/forms.py:10
+msgid "Name: "
+msgstr "Имя: "
+
+#: shop/customers/forms.py:11
+msgid "Username: "
+msgstr "Имя пользователя: "
+
+#: shop/customers/forms.py:12
+msgid "Email: "
+msgstr "Email: "
+
+#: shop/customers/forms.py:13
+msgid "Password: "
+msgstr "Пароль: "
+
+#: shop/customers/forms.py:14
+msgid "Repeat Password: "
+msgstr "Повторите пароль: "
+
+#: shop/customers/forms.py:15
+msgid "Country: "
+msgstr "Страна: "
+
+#: shop/customers/forms.py:16
+msgid "City: "
+msgstr "Город: "
+
+#: shop/customers/forms.py:17
+msgid "Contact: "
+msgstr "Номер телефона: "
+
+#: shop/customers/forms.py:18
+msgid "Address: "
+msgstr "Адрес: "
+
+#: shop/customers/forms.py:19
+msgid "Zipcode: "
+msgstr "Zipcode: "
+
+#: shop/customers/forms.py:21
+msgid "Profile: "
+msgstr "Профиль: "
+
+#: shop/customers/forms.py:23
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: shop/customers/forms.py:27
+msgid "This username is already exist"
+msgstr "Данный пользователь уже существует"
+
+#: shop/customers/forms.py:31
+msgid "This email is already exist"
+msgstr "Данный email уже существует"
+
+#: shop/customers/routes.py:35
+msgid "Paid"
+msgstr "Оплачено"
+
+#: shop/customers/routes.py:52
+#, python-format
+msgid "Welcome %(username)s. Thank you for registering"
+msgstr "Добро пожаловать %(username)s. Благодарим за регистрацию"
+
+#: shop/customers/routes.py:65
+msgid "You are logedin!"
+msgstr "Вы залогинились!"
+
+#: shop/customers/routes.py:68
+msgid "Incorrect email or password"
+msgstr "Неверный пароль или email попробуйте еще раз"
+
+#: shop/customers/routes.py:100
+msgid "Your order has been sent successfully"
+msgstr "Ваш заказ успешно отправлен"
+
+#: shop/customers/routes.py:104
+msgid "Something went wrong while get order"
+msgstr "Что-то пошло не так при получении заказа"
+
+#: shop/products/forms.py:7
+msgid "Price"
+msgstr "Цена"
+
+#: shop/products/forms.py:8
+msgid "Discount"
+msgstr "Скидка"
+
+#: shop/products/forms.py:9
+msgid "Stock"
+msgstr "В наличии"
+
+#: shop/products/forms.py:10
+msgid "Description"
+msgstr "Описание"
+
+#: shop/products/forms.py:11
+msgid "Colors"
+msgstr "Цвета"
+
+#: shop/products/forms.py:12
+msgid "Image 1"
+msgstr "Изображение 1"
+
+#: shop/products/forms.py:13
+msgid "Image 2"
+msgstr "Изображение 2"
+
+#: shop/products/forms.py:14
+msgid "Image 3"
+msgstr "Изображение 3"
+
+#: shop/products/routes.py:64
+#, python-format
+msgid "The Brand %(getbrand)s was added"
+msgstr "Добавлен бренд %(getbrand)s."
+
+#: shop/products/routes.py:79
+msgid "Your brand have succesfully updated"
+msgstr "Ваш бренд успешно обновлен"
+
+#: shop/products/routes.py:93
+#, python-format
+msgid "Brand %(deletebrand)s has been succesfully deleted"
+msgstr "Бренд %(deletebrand)s успешно удален."
+
+#: shop/products/routes.py:96
+#, python-format
+msgid "Brand %(deletebrand)s can't be deleted"
+msgstr "Бренд %(deletebrand)s невозможно удалить."
+
+#: shop/products/routes.py:108
+#, python-format
+msgid "The Category %(getcategory)s was added"
+msgstr "Добавлена ​​категория %(getcategory)s."
+
+#: shop/products/routes.py:123
+msgid "Your category have succesfully updated"
+msgstr "Ваша категория успешно обновлена"
+
+#: shop/products/routes.py:137
+#, python-format
+msgid "Category %(deletecategory)s has been succesfully deleted"
+msgstr "Категория %(deletecategory)s успешно удалена."
+
+#: shop/products/routes.py:140
+#, python-format
+msgid "Category %(deletecategory)s can't be deleted"
+msgstr "Категория %(deletecategory)s не может быть удалена."
+
+#: shop/products/routes.py:165
+#, python-format
+msgid "The product %(name)s has been added to your database"
+msgstr "Товар %(name)s был добавлен в вашу базу данных"
+
+#: shop/products/routes.py:209
+msgid "Your product has been updated"
+msgstr "Ваш продукт обновлен"
+
+#: shop/products/routes.py:237
+#, python-format
+msgid "Product %(deleteproduct)s has been successfully deleted"
+msgstr "Товар %(deleteproduct)s успешно удален."
+
+#: shop/products/routes.py:240
+#, python-format
+msgid "Product %(deleteproduct)s can't be deleted"
+msgstr "Продукт %(deleteproduct)s не может быть удален."
+
+#: shop/templates/admin/brand.html:6
+msgid "Admin"
+msgstr "Админ"
+
+#: shop/templates/admin/brand.html:13
+msgid "Home"
+msgstr "Дом"
+
+#: shop/templates/admin/brand.html:16
+msgid "Brands"
+msgstr "Бренды"
+
+#: shop/templates/admin/brand.html:19
+msgid "Categories"
+msgstr "Категории"
+
+#: shop/templates/admin/brand.html:23
+msgid "Dropdown link"
+msgstr "Раскрывающаяся ссылка"
+
+#: shop/templates/admin/brand.html:26
+msgid "Addproduct"
+msgstr "Добавить продукт"
+
+#: shop/templates/admin/brand.html:27
+msgid "Addcategory"
+msgstr "Добавить категорию"
+
+#: shop/templates/admin/brand.html:28
+msgid "Addbrand"
+msgstr "Добавить бренд"
+
+#: shop/templates/admin/brand.html:38
+msgid "Sr"
+msgstr "Заявка в магазин"
+
+#: shop/templates/admin/brand.html:40
+msgid "Edit"
+msgstr "Редактировать"
+
+#: shop/templates/admin/brand.html:41
+msgid "Delete"
+msgstr "Удалить"
+
